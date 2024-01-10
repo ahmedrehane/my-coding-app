@@ -1,4 +1,6 @@
-
+import Navigation from './Navigation/Nav'
+import Product from './Product/Product'
+import Recomended from './Recomended/Recomended'
 import './App.css'
 
 function App() {
@@ -6,8 +8,25 @@ function App() {
 
   return (
     <>
-      <h1>Hello Word</h1>
+    <Navigation/>
+
+    <Product/>
+    
+    <Recomended/>
     </>
+      
+      
+
+      
+
+        
+
+       
+      
+
+      
+    
+    
   )
 }
 
